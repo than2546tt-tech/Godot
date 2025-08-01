@@ -1,0 +1,34 @@
+[gd_scene load_steps=3 format=3 uid="uid://djdx75mujr2q3"]
+
+[ext_resource type="Script" uid="uid://2jgxgddkog70" path="res://scenes/popups.gd" id="1_fk52g"]
+[ext_resource type="FontFile" uid="uid://n2dq83wguri0" path="res://asset/PixelGame-R9AZe.otf" id="2_201id"]
+
+[node name="Popups" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_fk52g")
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="ITEMpopup" type="PopupPanel" parent="UI"]
+unique_name_in_owner = true
+position = Vector2i(100, 35)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="UI/ITEMpopup"]
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 96.0
+offset_bottom = 96.0
+
+[node name="Label" type="Label" parent="UI/ITEMpopup/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_201id")
+text = "S T A T"
+
+[node name="Label1" type="Label" parent="UI/ITEMpopup/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_201id")
+theme_override_font_sizes/font_size = 12
+text = "I N F O"
