@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://cticwsyd4u73x"]
+
+[ext_resource type="Script" uid="uid://q2k0g6hbceel" path="res://panel.gd" id="1_8e8e8"]
+[ext_resource type="Texture2D" uid="uid://b7sg6pxjosnyl" path="res://asset/cursor-export.png" id="2_ixbsq"]
+
+[node name="Panel" type="PanelContainer"]
+offset_right = 192.0
+offset_bottom = 192.0
+mouse_filter = 2
+script = ExtResource("1_8e8e8")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 2
+mouse_filter = 0
+texture = ExtResource("2_ixbsq")
+
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]

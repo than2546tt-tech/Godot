@@ -1,11 +1,13 @@
-[gd_scene load_steps=2 format=3 uid="uid://co52onb5526a1"]
+[gd_scene load_steps=3 format=3 uid="uid://co52onb5526a1"]
 
 [ext_resource type="Script" uid="uid://wepgbowe34ow" path="res://texture_rect.gd" id="1_3ir5p"]
+[ext_resource type="Texture2D" uid="uid://b7sg6pxjosnyl" path="res://asset/cursor-export.png" id="1_uknbb"]
 
 [node name="TextureRect" type="TextureRect"]
 custom_minimum_size = Vector2(70, 70)
 offset_right = 40.0
 offset_bottom = 40.0
+texture = ExtResource("1_uknbb")
 expand_mode = 1
 script = ExtResource("1_3ir5p")
 

@@ -15,3 +15,11 @@ func ITEMpopup(slot: Rect2i, item):
 	
 func HideITEMpopup():
 	%ITEMpopup.hide()
+
+
+func _on_texture_rect_mouse_entered() -> void:
+	pass # Replace with function body.
+
+
+func _on_texture_rect_mouse_exited() -> void:
+	pass # Replace with function body.

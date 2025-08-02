@@ -1,7 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://duo5uwyub7jd5"]
+[gd_scene load_steps=2 format=3 uid="uid://duo5uwyub7jd5"]
 
 [ext_resource type="Script" uid="uid://dbgvsig7nt1od" path="res://slot.gd" id="1_4v6ba"]
-[ext_resource type="Texture2D" uid="uid://bpswp0xp0nhrb" path="res://asset/Sushi salmont.png" id="2_ic0fu"]
 
 [node name="slot" type="PanelContainer"]
 custom_minimum_size = Vector2(70, 70)
@@ -20,7 +19,6 @@ script = ExtResource("1_4v6ba")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 2
-texture = ExtResource("2_ic0fu")
 
 [node name="Panel" type="Panel" parent="."]
 show_behind_parent = true
