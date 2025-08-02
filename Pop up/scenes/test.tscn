@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://b6ctmqw7b3vnl"]
+
+[ext_resource type="PackedScene" uid="uid://co52onb5526a1" path="res://scenes/texture_rect.tscn" id="1_bl13t"]
+[ext_resource type="Texture2D" uid="uid://bpswp0xp0nhrb" path="res://asset/Sushi salmont.png" id="2_bl13t"]
+
+[node name="Test drag and drop" type="Node2D"]
+
+[node name="TextureRect" parent="." instance=ExtResource("1_bl13t")]
+offset_left = 120.0
+offset_top = 193.0
+offset_right = 190.0
+offset_bottom = 263.0
+texture = ExtResource("2_bl13t")
+
+[node name="TextureRect2" parent="." instance=ExtResource("1_bl13t")]
+offset_left = 391.0
+offset_top = 191.0
+offset_right = 461.0
+offset_bottom = 261.0
